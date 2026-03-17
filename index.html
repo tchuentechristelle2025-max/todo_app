@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TalkStudent</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🎓 DEL CODING STUDENT</h1>
+  </header>
+
+  <div class="container">
+    <h2>Ajouter une tâche</h2>
+    <div class="form-group">
+      <label for="titre">Titre de la tâche</label>
+      <input type="text" id="titre" placeholder="Ex: Réviser JavaScript">
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" rows="3" placeholder="Ex: Faire les exercices sur les fonctions"></textarea>
+    </div>
+    <button class="btn-add" id="btnAjouter">Ajouter</button>
+  </div>
+
+  <div class="container">
+    <h2>Mes tâches</h2>
+    <div id="taskList">
+      
+    </div>
+  </div>
+   <script src="./assets/js/script.js"></script>
+</body>
+</html>
